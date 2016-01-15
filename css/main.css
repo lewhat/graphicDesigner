@@ -1,0 +1,152 @@
+body {
+	width: 100%;
+	height: 100%;
+	color: #fff;
+	background-color: #000;
+	position: relative;
+}
+.navbar {
+	background-color: transparent;
+	border:1px solid transparent;
+}
+
+h2 {
+	padding: 0px;
+}
+a {
+	text-decoration: none;
+	color: #42dca3;
+}
+a:hover {
+	 background-color: #42dca3;
+}
+.intro {
+    display: block;
+    width: 100%;
+    height: 700px;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+    background: url(../img/bg.jpg) no-repeat top center scroll;
+    background-color: #000;
+    background-size: 100%;
+    
+}
+.intro-name {
+	position: relative;
+	top: 300px;
+	color: #42dca3;
+}
+.intro-text {
+	color: #ffcc33;
+}
+.intro .intro-body {
+    display: block;
+    vertical-align: middle;
+}
+
+.intro .intro-body .brand-heading {
+    font-size: 40px;
+}
+
+.intro .intro-body .intro-text {
+    font-size: 18px;
+}
+#about {
+	position: relative;
+	top: 100;
+}
+#portfolio {
+	text-align: center;
+	height: 288px;
+	padding-bottom: 
+
+}
+#portfolio a {
+	position: relative;
+	top: 30px;
+	left: 75px;
+	width: 160px;
+	margin: 15px 20px 5px;
+	float: left;
+	border-radius: 1px solid #e8e8e8;
+	border-radius: 5px;
+	padding: 20px 10px 10px;
+	box-shadow: 0 0 5px #efefef;
+	text-decoration: none;
+	width: 320px;
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+	background: -webkit-linear-gradient(#efefef, #999999);
+	background: linear-gradient (#efefef, #999999);
+}
+.testimonial-section {
+	position: relative;
+	top: 100px;
+}
+#contact {
+	position: relative;
+	top: 200px;
+	text-align: center;
+}
+
+.btn {
+	padding: 10px;
+    border-radius: 0;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    
+}
+
+.btn-default {
+    border: 1px solid #42dca3;
+    color: #42dca3;
+    background-color: transparent;
+}
+
+.btn-default:hover,
+.btn-default:focus {
+    border: 1px solid #42dca3;
+    outline: 0;
+    color: #000;
+    background-color: #42dca3;
+}
+.img-responsive {
+	width: 300px;
+	height: 190px;
+}
+#about, #portfolio-section, #testimonial-section, #contact-section {
+	height: 500px;
+	margin: 200px;
+}
+.well{
+	background-color: transparent;
+	border: 1px solid transparent;
+    color: white;
+    font-size:13px;
+    text-transform: capitalize;
+    padding: 0px;
+}
+.btn-primary {
+    border: 1px solid transparent;
+    color: #42dca3;
+    background-color: transparent;
+    font-size:13px;
+    text-transform: capitalize;
+    padding: 0px;
+}
+
+
+.btn-primary:hover,
+.btn-primary:focus {
+    border: 0px solid transparent;
+    outline: 0;
+    color: #42dca3;
+    background-color: transparent;
+}
+footer {
+	position: relative;
+	top: 210px;
+
+}
+
