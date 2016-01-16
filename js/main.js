@@ -1,5 +1,8 @@
 $(document).ready(function(){
 
-		$('.collapse').collapseOff('toggle');
+		$('navbar-fix-top').each(function(){
+			sections.push($($(this).attr('href')));
+		})
+	
 
 });

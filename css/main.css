@@ -6,12 +6,16 @@ body {
 	position: relative;
 }
 .navbar {
-	background-color: transparent;
+	background-color:transparent;
 	border:1px solid transparent;
 }
 
+	
 h2 {
-	padding: 0px;
+	padding: 50px;
+}
+p{
+	font-size: 18px;
 }
 a {
 	text-decoration: none;
@@ -79,9 +83,27 @@ a:hover {
 	background: -webkit-linear-gradient(#efefef, #999999);
 	background: linear-gradient (#efefef, #999999);
 }
+
 .testimonial-section {
 	position: relative;
-	top: 100px;
+	top: 200px;
+	margin: 200px 0px;
+}
+.portfolio-section {
+
+	margin: 100px 0px;
+}
+
+.contact-section {
+	position: relative;
+	top: 0px;
+	margin: 100px 0px;
+}
+
+
+.about-section {
+	
+	margin: 50px 0px;
 }
 #contact {
 	position: relative;
@@ -117,7 +139,7 @@ a:hover {
 }
 #about, #portfolio-section, #testimonial-section, #contact-section {
 	height: 500px;
-	margin: 200px;
+	margin: 300px;
 }
 .well{
 	background-color: transparent;
@@ -146,7 +168,8 @@ a:hover {
 }
 footer {
 	position: relative;
-	top: 210px;
+	top: 290px;
+
 
 }
 
